@@ -1,0 +1,38 @@
+.currencyTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .currencyLine {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .flag img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .currency {
+    margin-left: 10px; 
+    font-size: 140px;
+  }
+  
+  .buyNumber,
+  .sellNumber {
+    flex: 1;
+    height: 150px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 150px;
+  }
+  
